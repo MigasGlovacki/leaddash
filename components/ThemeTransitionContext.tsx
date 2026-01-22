@@ -3,7 +3,7 @@
 import { createContext, useContext, useRef, ReactNode } from 'react';
 
 interface ThemeTransitionContextType {
-  overlayRef: React.RefObject<HTMLDivElement>;
+  overlayRef: React.RefObject<HTMLDivElement | null>;
   triggerTransition: (newTheme: 'light' | 'dark', setTheme: (theme: string) => void) => void;
 }
 
