@@ -2,7 +2,7 @@
   "compilerOptions": {
     "lib": [
       "dom",
-      "dom.lib",
+      "dom.iterable",
       "esnext"
     ],
     "allowJs": true,
